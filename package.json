@@ -1,0 +1,16 @@
+{
+  "name": "team-name-generator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kriskuiper/team-name-generator.git",
+  "author": "Kris <kriskuiper74@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "ncp src dist",
+    "dev": "chokidar \"src/**\" -c \"npm run build\""
+  },
+  "devDependencies": {
+    "chokidar-cli": "^2.1.0",
+    "ncp": "^2.0.0"
+  }
+}
